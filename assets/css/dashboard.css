@@ -1,0 +1,37 @@
+table, td {
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+	td {
+		width: calc(100%/4);
+		padding: 5px;
+	}
+	tr.title {
+		background-color: lightgray;
+		font-weight: bold;
+	}
+	tr.highlight {
+		background-color: #f2f2f2;
+	}
+	section {
+		position: relative;
+	}
+	a.btn {
+		text-decoration: none;
+		color: white;
+		padding: 5px;
+		background-color: #3c78e4;
+		position: absolute;
+		top: 10px;
+		right: 0;
+	}
+	td.action {
+		text-align: center;
+	}
+	td a {
+		margin: 0 10px;
+	}
+	input.inventory {
+		width: 50px;
+	}
